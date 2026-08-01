@@ -4,9 +4,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hightech-autoservices.com"),
-  title: "Junior's Mobile Auto Repair | Mobile Mechanic — We Come To You",
+  title: "High Tech Auto Services | Mobile Mechanic — We Come To You",
   description:
-    "Car broke down? Don't tow it. Junior's Mobile Auto Repair brings 20+ years of ASE-Certified expertise directly to your driveway. Honest pricing, fast same-day service across South Florida. 50% off all jobs + FREE diagnostic.",
+    "Car broke down? Don't tow it. High Tech Auto Services brings 20+ years of ASE-Certified expertise directly to your driveway. Honest pricing, fast same-day service across South Florida. 50% off all jobs + FREE diagnostic.",
   keywords: [
     "mobile mechanic",
     "mobile auto repair",
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     "Fort Lauderdale mobile mechanic",
     "Pompano auto repair",
     "Tamarac car repair",
-    "Junior's Mobile Auto Repair",
+    "High Tech Auto Services",
   ],
-  authors: [{ name: "Junior's Mobile Auto Repair" }],
-  creator: "Junior's Mobile Auto Repair",
-  publisher: "Junior's Mobile Auto Repair",
+  authors: [{ name: "High Tech Auto Services" }],
+  creator: "High Tech Auto Services",
+  publisher: "High Tech Auto Services",
   robots: {
     index: true,
     follow: true,
@@ -38,17 +38,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Junior's Mobile Auto Repair | Mobile Mechanic — We Come To You",
+    title: "High Tech Auto Services | Mobile Mechanic — We Come To You",
     description:
       "Skip the expensive shop prices and tow fees. 20+ years ASE-Certified expertise brought right to your driveway. 50% off all jobs + FREE diagnostic with same-day service.",
     url: "https://hightech-autoservices.com/",
-    siteName: "Junior's Mobile Auto Repair",
+    siteName: "High Tech Auto Services",
     images: [
       {
         url: "/images/hero-mechanic.png",
         width: 1200,
         height: 630,
-        alt: "Junior's Mobile Auto Repair — ASE-Certified mobile mechanic",
+        alt: "High Tech Auto Services — ASE-Certified mobile mechanic",
       },
     ],
     locale: "en_US",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junior's Mobile Auto Repair | Mobile Mechanic — We Come To You",
+    title: "High Tech Auto Services | Mobile Mechanic — We Come To You",
     description:
       "Car broke down? Don't tow it. We come to you. 20+ years ASE-Certified expertise. 50% off all jobs + FREE diagnostic.",
     images: ["/images/hero-mechanic.png"],

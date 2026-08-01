@@ -155,7 +155,7 @@ export default function HomePage() {
             className="text-2xl font-black text-[#f9fafb] tracking-tight uppercase flex items-center gap-2 font-['Barlow',sans-serif]"
           >
             <Wrench className="w-6 h-6 text-[#dc2626]" />
-            Junior&apos;s <span className="text-[#dc2626]">Mobile Auto</span>
+            High Tech <span className="text-[#dc2626]">Auto Services</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -274,8 +274,8 @@ export default function HomePage() {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-2xl font-['Inter',sans-serif]">
-                Skip the expensive shop prices and tow fees! Junior&rsquo;s
-                Mobile Auto Repair brings 20+ years of ASE-Certified expertise
+                Skip the expensive shop prices and tow fees! High Tech Auto
+                Services brings 20+ years of ASE-Certified expertise
                 directly to your driveway. Honest pricing, fast service.
               </p>
 
@@ -317,13 +317,13 @@ export default function HomePage() {
             </div>
 
             {/* Hero Image / Visual */}
-            <div className="lg:col-span-5 relative w-full h-[450px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
+            <div className="lg:col-span-5 relative w-full aspect-[3/2] rounded-2xl overflow-hidden shadow-2xl border border-white/10 group bg-[#0a0f18]">
               <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/20 to-transparent z-10"></div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/hero-mechanic.png"
                 alt="ASE-Certified mobile mechanic repairing a car engine directly in a customer's driveway"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
 
               {/* Floating Trust Badge */}
@@ -372,12 +372,12 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {/* Service 1 */}
             <div className="bg-gray-800/40 border border-gray-700/50 rounded-2xl hover:border-[#dc2626] transition-all duration-300 group animate-on-scroll overflow-hidden">
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-[#0a0f18]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/service-brakes.png"
                   alt="Mobile mechanic performing brake service on car in customer driveway"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/40 to-transparent"></div>
               </div>
@@ -400,12 +400,12 @@ export default function HomePage() {
               className="bg-gray-800/40 border border-gray-700/50 rounded-2xl hover:border-[#dc2626] transition-all duration-300 group animate-on-scroll overflow-hidden"
               style={{ transitionDelay: "100ms" }}
             >
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-[#0a0f18]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/service-electrical.png"
                   alt="Mechanic using OBD diagnostic scanner on vehicle electrical system"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/40 to-transparent"></div>
               </div>
@@ -428,12 +428,12 @@ export default function HomePage() {
               className="bg-gray-800/40 border border-gray-700/50 rounded-2xl hover:border-[#dc2626] transition-all duration-300 group animate-on-scroll overflow-hidden"
               style={{ transitionDelay: "200ms" }}
             >
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-[#0a0f18]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/service-engine.png"
                   alt="Mobile mechanic working on car engine in residential driveway"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/40 to-transparent"></div>
               </div>
@@ -482,7 +482,7 @@ export default function HomePage() {
                     DIY Training Available
                   </h3>
                   <p className="text-gray-400 leading-relaxed">
-                    Want to learn how to fix it yourself? Junior provides
+                    Want to learn how to fix it yourself? Our team provides
                     hands-on, over-the-shoulder training so you can master your
                     own vehicle&apos;s maintenance.
                   </p>
@@ -507,7 +507,7 @@ export default function HomePage() {
               <img
                 src="/images/about-mechanic.png"
                 alt="Experienced ASE-Certified mobile mechanic repairing a car engine in a customer driveway"
-                className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/5] border border-gray-700"
+                className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[3/2] border border-gray-700"
               />
 
               {/* Badge */}
@@ -532,7 +532,7 @@ export default function HomePage() {
               </h2>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                 Traditional auto shops charge massive markups just to cover their
-                overhead. Junior&rsquo;s Mobile Auto Repair eliminates the
+                overhead. High Tech Auto Services eliminates the
                 middleman, bringing 20+ years of ASE-Certified expertise directly
                 to you.
               </p>
@@ -659,7 +659,7 @@ export default function HomePage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/testimonials-van.png"
-              alt="Junior's mobile mechanic van parked roadside while mechanic repairs customer car engine with tools"
+              alt="High Tech Auto Services mobile mechanic van parked roadside while mechanic repairs customer car engine with tools"
               className="w-full h-64 md:h-80 lg:h-96 object-cover transform group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-[#111827]/50 to-transparent"></div>
@@ -695,7 +695,7 @@ export default function HomePage() {
               </div>
               <p className="text-xl italic text-gray-300 mb-8 leading-relaxed">
                 &quot;Saved me hundreds! I got a quote from a local shop that was
-                astronomical. Junior came out the same day, diagnosed the issue
+                astronomical. They came out the same day, diagnosed the issue
                 for free, and fixed it for half the price. Truly honest
                 work.&quot;
               </p>
@@ -730,8 +730,8 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-xl italic text-gray-300 mb-8 leading-relaxed">
-                &quot;Junior fixed my alternator right in my driveway after the
-                car died. I didn&apos;t have to pay for a tow truck, and he was
+                &quot;The team fixed my alternator right in my driveway after the
+                car died. I didn&apos;t have to pay for a tow truck, and they were
                 completely transparent about the parts and labor. Highly
                 recommend!&quot;
               </p>
@@ -879,7 +879,7 @@ export default function HomePage() {
 
               <p className="text-lg text-gray-300 mb-8 leading-relaxed max-w-lg">
                 Whether you&apos;re stuck in your driveway or stranded in a
-                parking lot, Junior brings 20+ years of ASE-Certified expertise
+                parking lot, High Tech Auto Services brings 20+ years of ASE-Certified expertise
                 directly to your location. Get your <strong>FREE Diagnostic</strong>{" "}
                 with any repair today.
               </p>
@@ -893,6 +893,12 @@ export default function HomePage() {
                     <h4 className="font-['Barlow'] font-bold text-xl mb-1">
                       Call for Immediate Dispatch
                     </h4>
+                    <a
+                      href="tel:+19547956070"
+                      className="text-2xl font-extrabold text-white hover:text-[#dc2626] transition-colors font-['Barlow'] block"
+                    >
+                      (954) 795-6070
+                    </a>
                     <p className="text-gray-400">
                       Available for same-day service across South Florida.
                     </p>
@@ -1026,7 +1032,7 @@ export default function HomePage() {
                   <Settings className="w-6 h-6 text-white" />
                 </div>
                 <span className="font-['Barlow'] text-2xl font-extrabold text-white uppercase tracking-tight">
-                  Junior&apos;s <span className="text-[#dc2626]">Mobile</span>
+                  High Tech <span className="text-[#dc2626]">Auto Services</span>
                 </span>
               </a>
               <p className="text-sm leading-relaxed mb-6 pr-4">
@@ -1078,7 +1084,7 @@ export default function HomePage() {
                     href="#about"
                     className="hover:text-[#dc2626] transition-colors flex items-center gap-2"
                   >
-                    <ChevronRight className="w-4 h-4" /> Meet Junior
+                    <ChevronRight className="w-4 h-4" /> About Us
                   </a>
                 </li>
                 <li>
@@ -1151,6 +1157,15 @@ export default function HomePage() {
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
+                  <PhoneCall className="w-5 h-5 text-[#dc2626] flex-shrink-0" />
+                  <a
+                    href="tel:+19547956070"
+                    className="font-bold text-white hover:text-[#dc2626] transition-colors"
+                  >
+                    (954) 795-6070
+                  </a>
+                </li>
+                <li className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-[#dc2626] flex-shrink-0" />
                   <span>Same-Day Service Available</span>
                 </li>
@@ -1168,7 +1183,7 @@ export default function HomePage() {
 
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm">
-              &copy; {year} Junior&apos;s Mobile Auto Repair. All rights
+              &copy; {year} High Tech Auto Services. All rights
               reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
