@@ -301,11 +301,18 @@ export default function HomePage() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <a
-                  href="#contact"
+                  href="tel:+19547956070"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#dc2626] hover:bg-[#ef4444] text-white rounded font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(239,68,68,0.6)] transform hover:-translate-y-1 font-['Inter',sans-serif]"
                 >
                   <PhoneCall className="w-5 h-5" />
-                  Request Service Now
+                  Call Now
+                </a>
+                <a
+                  href="sms:+19547956070"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#f59e0b] hover:bg-[#fbbf24] text-[#111827] rounded font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(251,191,36,0.6)] transform hover:-translate-y-1 font-['Inter',sans-serif]"
+                >
+                  <MessageSquare className="w-5 h-5" />
+                  Text Now
                 </a>
                 <a
                   href="#services"
