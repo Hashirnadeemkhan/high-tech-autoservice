@@ -22,6 +22,7 @@ import {
   Wallet,
   Banknote,
   Smartphone,
+  MessageSquare,
   Send,
   CreditCard,
   ShieldCheck,
@@ -901,6 +902,26 @@ export default function HomePage() {
                     </a>
                     <p className="text-gray-400">
                       Available for same-day service across South Florida.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-[#dc2626]/10 flex items-center justify-center flex-shrink-0 border border-[#dc2626]/20">
+                    <MessageSquare className="w-6 h-6 text-[#dc2626]" />
+                  </div>
+                  <div>
+                    <h4 className="font-['Barlow'] font-bold text-xl mb-1">
+                      Text Us for a Quick Reply
+                    </h4>
+                    <a
+                      href="sms:+19547956070"
+                      className="text-2xl font-extrabold text-white hover:text-[#dc2626] transition-colors font-['Barlow'] block"
+                    >
+                      (954) 795-6070
+                    </a>
+                    <p className="text-gray-400">
+                      Prefer texting? Send us your issue and we&apos;ll respond fast.
                     </p>
                   </div>
                 </div>
