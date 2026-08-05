@@ -1212,7 +1212,15 @@ export default function HomePage() {
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm">
               &copy; {year} High Tech Auto Services. All rights
-              reserved.
+              reserved. Designed by{" "}
+              <a
+                href="https://www.brightreachsolutions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline transition-colors"
+              >
+                Bright Reach Solutions
+              </a>
             </p>
             <div className="flex items-center gap-6 text-sm">
               <span className="flex items-center gap-2">
